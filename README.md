@@ -3,7 +3,7 @@
 # 42_ft_printf
 Coding project for the Ecole 42 cursus which consists in recoding a simpler version of printf in C language
 
-This `printf` supports the following format specifiers:
+This `ft_printf` supports the following format specifiers:
 
 - **%c** : Prints a single character.
 - **%s** : Prints a string (as defined by the common C convention).
@@ -17,12 +17,12 @@ This `printf` supports the following format specifiers:
 
 ## Usage
 
-To use this custom `printf` function, include the header file and link the appropriate source files in your project.
+To use this custom `ft_printf` function, include the header file and link the appropriate source files in your project.
 
 ```c
-#include "custom_printf.h"
+#include "ft_printf.h"
 
 int main() {
-    custom_printf("Hello %s!\n", "world");
+    ft_printf("Hello %s!\n", "world");
     return 0;
 }
